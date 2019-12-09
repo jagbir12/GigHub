@@ -217,6 +217,10 @@
     <Compile Include="Migrations\201912080949332_PopulateGenreTable.Designer.cs">
       <DependentUpon>201912080949332_PopulateGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912091326236_name change of Genre field in gig.cs" />
+    <Compile Include="Migrations\201912091326236_name change of Genre field in gig.Designer.cs">
+      <DependentUpon>201912091326236_name change of Genre field in gig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -317,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912080949332_PopulateGenreTable.resx">
       <DependentUpon>201912080949332_PopulateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091326236_name change of Genre field in gig.resx">
+      <DependentUpon>201912091326236_name change of Genre field in gig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -17,6 +17,6 @@ namespace GigHub.Models
         public string Venue { get; set; }
 
         [Required]
-        public Genre MyProperty { get; set; }
+        public Genre Genre { get; set; }
     }
 }
