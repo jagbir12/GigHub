@@ -233,6 +233,10 @@
     <Compile Include="Migrations\201912101259160_adding ArtistId.Designer.cs">
       <DependentUpon>201912101259160_adding ArtistId.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912140442006_addnametotheapplicationuser.cs" />
+    <Compile Include="Migrations\201912140442006_addnametotheapplicationuser.Designer.cs">
+      <DependentUpon>201912140442006_addnametotheapplicationuser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -244,6 +248,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigsFormViewModel.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -347,6 +352,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912101259160_adding ArtistId.resx">
       <DependentUpon>201912101259160_adding ArtistId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912140442006_addnametotheapplicationuser.resx">
+      <DependentUpon>201912140442006_addnametotheapplicationuser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
