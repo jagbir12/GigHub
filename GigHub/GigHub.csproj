@@ -264,6 +264,10 @@
     <Compile Include="Migrations\201912161123451_iscancelledadded.Designer.cs">
       <DependentUpon>201912161123451_iscancelledadded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912230327124_addNotification.cs" />
+    <Compile Include="Migrations\201912230327124_addNotification.Designer.cs">
+      <DependentUpon>201912230327124_addNotification.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -273,6 +277,9 @@
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Notification.cs" />
+    <Compile Include="Models\NotificationType.cs" />
+    <Compile Include="Models\UserNotification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
@@ -396,6 +403,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912161123451_iscancelledadded.resx">
       <DependentUpon>201912161123451_iscancelledadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912230327124_addNotification.resx">
+      <DependentUpon>201912230327124_addNotification.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
