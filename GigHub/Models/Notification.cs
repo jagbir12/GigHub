@@ -12,7 +12,7 @@ namespace GigHub.Models
         public string OriginalVenue { get; private set; }
 
         [Required]
-        public Gig Gig { get; private set; }
+        public Gig Gig { get; set; }
 
         public Notification()
         {
